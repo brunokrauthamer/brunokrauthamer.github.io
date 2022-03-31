@@ -3,15 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <title>Bruno Krauthamer - Minha página pessoal</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+            body {
+                background-color: #242424;
+                color: white;
+            }
+            h1 {
+                font-family: 'Rock Salt', cursive;
+            }
+            p {
+                font-family: 'Manrope', sans-serif;
+            }
+            .destaques {
+                font-style: oblique;
+            }
+            #corinthians {
+                font-size: 20px;
+            }
+        </style>
     </head>
     <body>
         <h1 id="nome">Bruno Krauthamer</h1>
         <img id = "foto" src="myselfie.jpg" alt="Eu no modo Gaules Timão rs" width="400">
         <h2 id = "descricao">Breve Descrição Sobre Mim</h2>
-        <p>Sou brasileiro e moro em São Paulo-SP</p>
+        <p>Sou <span class="destaques">brasileiro</span> e moro em <span class="destaques">São Paulo-SP</span></p>
         <h2 id = "lista de habilidades">Lista de habilidades que possuo</h2>
         <ul>
-            <li><strong>Corintiano</strong></li>
+            <li id="corinthians"><strong>Corintiano</strong></li>
             <li>html</li>
             <li>css</li>
         </ul>
